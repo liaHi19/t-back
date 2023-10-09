@@ -17,7 +17,6 @@ router.post('/', async (req, res) => {
     } catch (error) {
        res.status(400).json({message: "The username and email should be unique"}) 
     }
- 
 })
 
 router.get('/:id', async (req, res) => {
